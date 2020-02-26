@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.666c8d98.chunk.css",
+    "main.js": "/static/js/main.7d5ef432.chunk.js",
+    "main.js.map": "/static/js/main.7d5ef432.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9eb0259d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9eb0259d.js.map",
+    "static/css/2.57b82891.chunk.css": "/static/css/2.57b82891.chunk.css",
+    "static/js/2.29deff8a.chunk.js": "/static/js/2.29deff8a.chunk.js",
+    "static/js/2.29deff8a.chunk.js.map": "/static/js/2.29deff8a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c5a778d336307adae67f2d29ba3f3d87.js": "/precache-manifest.c5a778d336307adae67f2d29ba3f3d87.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.57b82891.chunk.css.map": "/static/css/2.57b82891.chunk.css.map",
+    "static/css/main.666c8d98.chunk.css.map": "/static/css/main.666c8d98.chunk.css.map",
+    "static/js/2.29deff8a.chunk.js.LICENSE": "/static/js/2.29deff8a.chunk.js.LICENSE",
+    "static/media/stylesheet.css": "/static/media/snowflake.1fa3bcc0.png",
+    "static/media/faces men 01.png": "/static/media/faces men 01.4b6b5d93.png",
+    "static/media/faces men 02.png": "/static/media/faces men 02.200d6ebd.png",
+    "static/media/faces men 03.png": "/static/media/faces men 03.69cd5bb7.png",
+    "static/media/faces men 04.png": "/static/media/faces men 04.4518db99.png",
+    "static/media/faces men 05.png": "/static/media/faces men 05.8c37886c.png",
+    "static/media/faces men 06.png": "/static/media/faces men 06.8e46f657.png",
+    "static/media/faces women 01.png": "/static/media/faces women 01.9e849dc4.png",
+    "static/media/faces women 02.png": "/static/media/faces women 02.7e29131c.png",
+    "static/media/faces women 03.png": "/static/media/faces women 03.a2b4c286.png",
+    "static/media/faces women 04.png": "/static/media/faces women 04.852d861d.png",
+    "static/media/faces women 05.png": "/static/media/faces women 05.6156a3de.png",
+    "static/media/faces women 06.png": "/static/media/faces women 06.6e9102d7.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/mongodb.png": "/static/media/mongodb.36e755be.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9eb0259d.js",
+    "static/css/2.57b82891.chunk.css",
+    "static/js/2.29deff8a.chunk.js",
+    "static/css/main.666c8d98.chunk.css",
+    "static/js/main.7d5ef432.chunk.js"
+  ]
+}

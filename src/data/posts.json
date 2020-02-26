@@ -1,0 +1,161 @@
+[{
+    "featureGroupID": 1,
+    "groupName" :"Customers",
+    "groupShortDescription":"Demographics for Retail",
+    "groupcategory":"Domain",
+    "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+    "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+    },
+  {
+    "featureGroupID": 2,
+    "groupName" :"Cards",
+    "groupShortDescription":"Demographics",
+    "groupcategory":"Domain",
+    "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+    "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+    },
+    {
+      "featureGroupID": 3,
+      "groupName" :"Mortgages",
+      "groupShortDescription":"Demographics",
+      "groupcategory":"Domain",
+      "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+      "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+      },
+      {
+        "featureGroupID": 4,
+        "groupName" :"Current and Saving Accounts",
+        "groupShortDescription":"Demographics",
+        "groupcategory":"Domain",
+        "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+        "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+        },
+        {
+          "featureGroupID": 5,
+          "groupName" :"Loans",
+          "groupShortDescription":"Demographics",
+          "groupcategory":"Domain",
+          "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+          "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+          },
+          {
+            "featureGroupID": 6,
+            "groupName" :"Transaction Categorization",
+            "groupShortDescription":"Demographics",
+            "groupcategory":"Domain",
+            "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+            "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+            },
+            {
+              "featureGroupID": 7,
+              "groupName" :"Multi Channel Events",
+              "groupShortDescription":"Demographics",
+              "groupcategory":"Domain",
+              "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+              "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+              },
+              {
+                "featureGroupID": 8,
+                "groupName" :"Customer Journey",
+                "groupShortDescription":"Demographics",
+                "groupcategory":"Domain",
+                "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                },
+                {
+                  "featureGroupID": 1,
+                  "groupName" :"Asset and Liability Management",
+                  "groupShortDescription":"Demographics for Retail",
+                  "groupcategory":"Function",
+                  "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                  "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                  },
+                {
+                  "featureGroupID": 2,
+                  "groupName" :"Profitability",
+                  "groupShortDescription":"Demographics",
+                  "groupcategory":"Function",
+                  "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                  "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                  },
+                  {
+                    "featureGroupID": 3,
+                    "groupName" :"Risk Management",
+                    "groupShortDescription":"Demographics",
+                    "groupcategory":"Function",
+                    "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                    "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                    },
+                    {
+                      "featureGroupID": 4,
+                      "groupName" :"Regulatory Compliance",
+                      "groupShortDescription":"Demographics",
+                      "groupcategory":"Function",
+                      "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                      "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                      },
+                      {
+                        "featureGroupID": 5,
+                        "groupName" :"Relationship Management",
+                        "groupShortDescription":"Demographics",
+                        "groupcategory":"Function",
+                        "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                        "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                        },
+                        {
+                          "featureGroupID": 6,
+                          "groupName" :"Investment Management",
+                          "groupShortDescription":"Demographics",
+                          "groupcategory":"Function",
+                          "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                          "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                          },
+                          {
+                            "featureGroupID": 1,
+                            "groupName" :"Snowflake",
+                            "groupShortDescription":"Demographics",
+                            "groupcategory":"Source Type",
+                            "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                            "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                            },
+                            {
+                              "featureGroupID": 2,
+                              "groupName" :"Redshift",
+                              "groupShortDescription":"Demographics",
+                              "groupcategory":"Source Type",
+                              "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                              "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                              },
+                              {
+                                "featureGroupID": 3,
+                                "groupName" :"Mariadb",
+                                "groupShortDescription":"Demographics",
+                                "groupcategory":"Source Type",
+                                "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                                "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                                },
+                                {
+                                  "featureGroupID": 4,
+                                  "groupName" :"Apache Hive Logo",
+                                  "groupShortDescription":"Demographics",
+                                  "groupcategory":"Source Type",
+                                  "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                                  "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                                  },
+                                  {
+                                    "featureGroupID": 5,
+                                    "groupName" :"Kafka",
+                                    "groupShortDescription":"Demographics",
+                                    "groupcategory":"Source Type",
+                                    "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                                    "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                                    },
+                                    {
+                                      "featureGroupID": 6,
+                                      "groupName" :"S3",
+                                      "groupShortDescription":"Demographics",
+                                      "groupcategory":"Source Type",
+                                      "dateLoadTimeStamp": "2014-02-10T10:50:42.389Z",
+                                      "dateUpdateTimeStamp": "2014-02-10T10:50:42.389Z"
+                                      }
+] 
