@@ -1,0 +1,305 @@
+/* html{
+    border-style: solid;
+    border-width: medium;
+} */
+/* .card-columns {
+    column-count: 4!important;
+} */
+.card-deck .card{
+   width: 100px; 
+  height: 100px;
+  cursor: pointer;
+  /* word-wrap: break-word; */
+}
+
+.card-text:hover {
+    font-weight: bold;
+}
+.card-deck .card:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.card-deck .card .card-text {
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #004085;
+}
+
+.transPop {
+    background-color: #004085;
+    border-radius: 5px;
+    border: 2px solid #004085;
+    font-size: 13px;
+    color: #fff;
+    height: 40px;
+    margin:5px;
+}
+
+#PopoverLegacy{
+    background-color: #004085;
+    border: 2px solid #004085;
+    font-size: 12px;
+    height: 100px;
+    width: 110px;
+    color:#46d246;
+}
+#PopoverLink{
+    background-color: #004085;
+    border: 2px solid #004085;
+    font-size: 12px;
+    height: 100px;
+    width: 110px;
+    color:#46d246;
+}
+#PopoverTheme{
+    background-color: #004085;
+    border: 2px solid #004085;
+    font-size: 12px;
+    height: 100px;
+    width: 110px;
+    color:#46d246;
+}
+
+.tableTransform{
+background-color: #3787d8;
+font-size: 14px;
+}
+
+/* .wrapper{
+    width: 150px;
+  text-align: center;
+  margin:0 auto;
+  display: block;
+  background-color: #3787d8;
+  border-radius: 5px;
+  border: 2px solid #3787d8;
+  font-size: 13px;
+  color: #fff;
+  height: 40px;
+} */
+
+.buttonAlign{
+    background-color: #004085;
+    border-radius: 5px;
+    border: 2px solid #004085;
+    font-size: 13px;
+    color: #fff;
+    height: 40px;
+    margin:5px;
+   float: right;
+   width: 120px;
+}
+#buttonAlignOne{
+    background-color: #004085;
+    border-radius: 5px;
+    border: 2px solid #004085;
+    font-size: 13px;
+    color: #fff;
+    height: 40px;
+    margin:5px;
+   float: right;
+   width: 120px;
+   text-align: center;
+   padding-top: 6px;
+}
+
+.table th, .table td {
+    padding: 2px 5px!important;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+    font-size: 12px;
+}
+.table thead th {
+    /* vertical-align: bottom; */
+    /* border-bottom: 2px solid #dee2e6; */
+    font-size: 14px;
+    color: #fff;
+    padding: 5px!important;
+}
+.card.bg-info {
+    background-color:#ddd!important;
+}
+.card-header {
+    padding: 5px 10px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 2px solid #ddd;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.alignment{
+    background-color: #004085;
+    border-radius: 5px;
+    border: 2px solid #004085;
+    font-size: 13px;
+    color: #fff;
+    height: 30px;
+    float:right;
+    margin-top: -52px;
+    width: 140px;
+    text-align: center;
+}
+
+.Collapsible{
+    font-weight: bold;
+    padding: 20px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+ul.list{
+    color: #850900;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.form-group{
+    width: 200px;
+    padding-top: 92px;
+}
+
+.buttonText{
+    background-color: #004085;
+    border-radius: 5px;
+    border: 2px solid #004085;
+    font-size: 13px;
+    color: #fff;
+    height: 30px;
+    margin: 0 auto;
+   float: right;
+   width: 120px;
+}
+
+#middle{
+    margin: 15px;
+}
+
+/* #alignmentCenter{
+padding-right: 1px;
+padding-left: 1px;
+text-align: center!important;
+color:#adebad;
+} */
+
+#alignmentCenter{
+    padding-right: 1px;
+    padding-left: 1px;
+    text-align: center!important;
+    color:#adebad;
+    }
+
+/*font*/
+
+#iconOne{
+    margin-left: 270px;
+    font-size: 18px !important;
+    color:brown;
+    margin-top: -32px;
+    position: absolute;
+}
+#iconTwo{
+    margin-left: 190px;
+    font-size: 18px !important;
+    color:brown;
+    margin-top: -30px;
+    position: absolute;
+}
+.table-size{
+    width:60% !important;
+}
+.imgPfl{
+    height: 57px;
+    border-radius: 50%;
+}
+.rightSide{
+    width: 40% !important;
+position: absolute;
+margin-left: 500px;
+margin-top: -286px;
+    }
+.back{
+float:left !important;
+    }
+.submit{
+    margin-top: 10px;
+    margin-right: 750px;
+    height: 37px;
+    width:142px;
+    background-color: #004085;
+    border-radius: 5px;
+    border: 2px solid #004085;
+    font-size: 13px;
+    color: #fff;
+    float:right;
+    text-align: center;
+}
+.buttonSaveCancel{
+    margin-top: 0px !important;
+    background-color: #004085;
+    border-radius: 5px;
+    border: 2px solid #004085;
+    font-size: 13px;
+    color: #fff;
+    height: 30px;
+    float:right;
+    width: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+.saveAs{
+    display: inline;
+     margin: 10px;
+}
+.cardSaveColumn{
+    margin-top: 57px !important;
+}
+.table-bordered{
+    margin-top: 26px;
+}
+
+.roundedImage{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+
+#tableBorder{
+    background-color: white;
+}
+
+.transPush{
+    background-color: #004085;
+    border-radius: 5px;
+    border: 2px solid #004085;
+    font-size: 14px;
+    color: #fff;
+    height: 30px;
+    margin:15px;
+    width: 100px;
+    /* padding-bottom: 20px;
+    padding-left: 30px; */
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+    
+/* #over{
+    font-weight: bold;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+} */
+
+
+
