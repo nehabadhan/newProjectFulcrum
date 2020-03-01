@@ -1,27 +1,31 @@
 import React, { Component } from "react"
-import PostData  from '../data/posts.json'
+import CustomerList from './CustomerList';
 import {Link} from 'react-router-dom'
-import axios from "axios"
+import Title from "./Title";
 
-class Greet extends Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      customer: []
-    }
+class Greet extends React.Component {
+  state = {
+    isLoading: true,
+    users: [],
+    error: null
+  };
+  
+  fetchUsers() {
+    fetch('http://9.199.250.92:8080/featureGroup/getAll')
+      .then(response => response.json())
+   
+      .then(data =>
+        this.setState({
+          users: data,
+          isLoading: false,
+        })
+      )
+      .catch(error => this.setState({ error, isLoading: false }));
+  };
 
+  componentDidMount() {
+    this.fetchUsers();
   }
-
-  componentDidMount(){
-    debugger;
-  // axios.get('http://9.199.250.92:8080/featureGroup/getAll')
-  axios.get('http://9.199.250.92:8080/featureGroup/getAll')
-   .then(response =>{
-     console.log(response);
-   })
-  }
-
-
   render() {
     const myStyle = {
       borderRadius: "20px",
@@ -31,12 +35,13 @@ class Greet extends Component {
       borderColor:"#004085"
     };
     var logTable = this.props;
-    function clickHandler(){
-        alert('Button click')
-    }
-        return(
+    let stateTable = this.state.users;
+    const { isLoading, users, error } = this.state;
+
+    return (
+       
       <form>
-        <div class="input-group">
+          <div class="input-group">
           <input
             id="search"
             type="search" 
@@ -46,61 +51,94 @@ class Greet extends Component {
             placeholder="Search Datasets, Features, People" />
           <i class="fa fa-search" style={{position: "absolute",margin: "23px",color:"#004085"}}></i>
         </div>
-
-         
-        <div class="card box-border" id="middle">
-          <div class="card-header">Discover by Domain</div>         
-          <div class="card-body">
-            {PostData.map((featureGroup, index)=>{ return (       
-            featureGroup.groupcategory === 'Domain' ? 
-            <div class="col col-md-3 card2 green-card-style" >
-            <Link  className="push" to={featureGroup.groupName}   style={{ color: "white" }}>
-              <div class="icon-tab">  
-                <div class={featureGroup.groupName} id="alignmentCenter"> </div>
-                   <a class="icon-tab-text addIcon card-text green-color"> {featureGroup.groupName}
-                   </a>           
-                  </div>
-                  </Link> 
-                </div> : null)
-              })}     
-              </div>     
-            </div>
-            <div class="card box-border" id="middle">
-          <div class="card-header">Discover by Function</div>         
-          <div class="card-body">
-            {PostData.map((featureGroup, index)=>{ return (       
-            featureGroup.groupcategory === 'Function' ? 
-            <div class="col col-md-4 card2 green-card-style" >
-            <Link  className="push" to={featureGroup.groupName}   style={{ color: "white" }}>
-              <div class="icon-tab">  
-                <div class={featureGroup.groupName} id="alignmentCenter"> </div>
-                   <a class="icon-tab-text addIcon card-text green-color"> {featureGroup.groupName}
-                   </a>           
-                  </div>
-                  </Link> 
-                </div> : null)
-              })}     
-              </div>     
-            </div>
-            <div class="card box-border" id="middle">
-          <div class="card-header">Discover by Source Type</div>         
-          <div class="card-body">
-            {PostData.map((featureGroup, index)=>{ return (       
-            featureGroup.groupcategory === 'Source Type' ? 
-            <div class="col col-md-4 card2 green-card-style" >
-            <Link  className="push" to={featureGroup.groupName}   style={{ color: "white" }}>
-              <div class="icon-tab">  
-                <div class={featureGroup.groupName} id="alignmentCenter"> </div>
-                   <a class="icon-tab-text addIcon card-text green-color"> {featureGroup.groupName}
-                   </a>           
-                  </div>
-                  </Link> 
-                </div> : null)
-              })}     
-              </div>     
-            </div>
+        
+      <React.Fragment>
+      <div class="card box-border" id="middle">
+    <div class="card-header">Discover by Domain</div> 
+    <div class="card-body">
+        {error ? <p>{error.message}</p> : null}
+        {!isLoading ? (
+          users.map(user => {
+            const { username, groupName, groupcategory, featureGroupID } = user; 
+            return (
+                         
+              user.groupcategory === 'Domain' ? 
+              <div class="col col-md-3 card2 green-card-style" >
+                    <Link className="push" to={{pathname:groupName, aboutProps: {
+                          name: { logTable },
+                          id: { featureGroupID }
+                        }}}  style={{ color: "white" }}>
+              <div key={username} class="icon-tab">
+              <div class={groupName}  id="alignmentCenter"> </div>
+                   <a id={groupName} class="icon-tab-text addIcon card-text green-color"> {groupName}
+                   </a>          
+                </div>
+                </Link>
+              </div> : null
+            );
+          })
+        ) : (
+          <h3>Loading...</h3>
+        )}    </div></div>
+      </React.Fragment>
+      <React.Fragment>
+      <div class="card box-border" id="middle">
+    <div class="card-header">Discover by Function</div> 
+    <div class="card-body">
+        {error ? <p>{error.message}</p> : null}
+        
+        {!isLoading ? (
+          users.map(user => {
+            const { username, groupName, groupcategory } = user;           
+            return (     
+              user.groupcategory === 'Function' ? 
+              <div class="col col-md-4 card2 green-card-style" >
+                    <Link className="push" to={{pathname:groupName, aboutProps: {
+                          name: { logTable },
+                        }}}  style={{ color: "white" }}>
+              <div key={username} class="icon-tab">
+              <div class={groupName} id="alignmentCenter"> </div>
+                   <a id={groupName} class="icon-tab-text addIcon card-text green-color"> {groupName}
+                   </a>                    
+                </div>
+                </Link>
+              </div> : null
+            );
+          })
+        ) : (
+          <h3>Loading...</h3>
+        )}    </div></div>
+      </React.Fragment>
+      <React.Fragment>
+      <div class="card box-border" id="middle">
+    <div class="card-header">Discover by Source</div> 
+    <div class="card-body">
+        {error ? <p>{error.message}</p> : null}
+        {!isLoading ? (
+          users.map(user => {
+            const { username, groupName, groupcategory } = user; 
+            return (
+      
+              user.groupcategory === 'Source' ? 
+              <div class="col col-md-4 card2 green-card-style" >
+                    <Link className="push" to={{pathname:groupName, aboutProps: {
+                          name: { logTable },
+                        }}}  style={{ color: "white" }}>
+              <div key={username} class="icon-tab">
+              <div class={groupName} id="alignmentCenter"> </div>
+                   <a id={groupName} class="icon-tab-text addIcon card-text green-color"> {groupName}
+                   </a>         
+                </div>
+                </Link>
+              </div> : null
+            );
+          })
+        ) : (
+          <h3>Loading...</h3>
+        )}    </div></div>
+      </React.Fragment>
       </form>
     );
-  }
+ }
 }
 export default Greet;

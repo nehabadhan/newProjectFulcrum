@@ -3,6 +3,7 @@ import Greet from './Greet'
 import LeftSideBar from './LeftSideBar'
 import Card from './Card'
 
+
 class LeftBar extends Component {
   render() {
     return (
@@ -12,7 +13,8 @@ class LeftBar extends Component {
          <LeftSideBar/>
           </div>
           <div class="col-6">
-          <Greet random={this.props} headerName = "Discover by Domain"/>
+          <Greet random={this.props} headerName = "Discover by Domain"
+          random={this.props} ID = "kya bhai by Domain"/>
           </div>
           <div class="col">
            <Card/>

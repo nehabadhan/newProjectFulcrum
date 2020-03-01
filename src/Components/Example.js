@@ -31,6 +31,7 @@ class Example extends Component {
       var x = this.props.location.aboutProps;
       var tableData = x.name.send.posts;
       var checkData = x.name.send.checkboxMark;
+
       if (
         x.name.send.cardsValue !== undefined &&
         x.name.send.cardsValue.location.aboutProps !== undefined &&

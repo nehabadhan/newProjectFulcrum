@@ -34,7 +34,7 @@
     overflow: hidden;
 }
 .card-text{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
     padding: 7px;
     line-height: 15px;
@@ -152,10 +152,13 @@ font-size: 14px;
 }
 
 .icon-tab{
-    border: 2px solid #4481C1;
+    border: 1px solid #4481C1;
     border-radius: 20px;
     margin: 10px;
     height:100px;
+    -moz-box-shadow: inset 0 0 7px #4481C1;
+    -webkit-box-shadow: inset 0 0 7px#4481C1;
+   
 }
 
 .icon-tab-text{
@@ -311,188 +314,6 @@ vertical-align: top;
     border-radius: 50%;
     background-color: #fff;
 }
-
-.Customers{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("customers 01.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Cards{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("cards 02.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Mortgages{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("mortgage 02.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Current.and.Saving.Accounts{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Current & Savings Accounts 02.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Loans{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("loans 01.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Transaction.Categorization{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Transactions 02.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Multi.Channel.Events{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Channel interactions 03.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Customer.Journey{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Customer Journey 01.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Asset.and.Liability.Management{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Asset and Liability Management 01.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Profitability{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Profitability 03.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Risk.Management{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Risk Management 02.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Regulatory.Compliance{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Regulatory Compliance 02.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Relationship.Management{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Relationship Management 03.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Investment.Management{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Investment Management 01.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Snowflake{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("snowflake.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Redshift{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("redshift.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Mariadb{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("mariadb.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Apache.Hive.Logo{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("Apache_Hive_logo.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.Kafka{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("kafka.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-.S3{
-    height: 50px;
-    border-radius: 50%;
-    background-image: url("s3.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: 30px 30px;
-}
-
 .cardpics2{
     height: 30px;
     border-radius: 50%;
@@ -1134,4 +955,78 @@ padding-left: 45px !important;
 #cardstable .secondbody tr td:nth-child(3){
     font-size: 14px;
     padding-right: 65px !important;
+}
+
+/* Feature group icons */
+#alignmentCenter {
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-size: 30px 30px;
+}
+
+.Customers {
+    background-image: url("../Components/images/customers 01.png");
+}
+.Cards{
+    background-image: url("../Components/images/cards 02.png");
+}
+.Mortgages{
+    background-image: url("../Components/images/mortgage 02.png");
+}
+.Current.and.Saving.Accounts{
+    background-image: url("../Components/images/Current & Savings Accounts 02.png");
+}
+.Loans{
+    background-image: url("../Components/images/loans 01.png");
+}
+.Transaction.Categorization{
+    background-image: url("../Components/images/Transactions 02.png");
+}
+.Multi.Channel.Events{
+    background-image: url("../Components/images/Channel interactions 03.png");
+}
+.Customer.Journey{
+    background-image: url("../Components/images/Customer Journey 01.png");
+}
+.Asset.and.Liability.Management{
+    background-image: url("../Components/images/Asset and Liability Management 01.png");
+}
+.Profitability{
+    background-image: url("../Components/images/Profitability 03.png");
+}
+.Risk.Management{
+    background-image: url("../Components/images/Risk Management 02.png");
+}
+.Regulatory.Compliance{
+    background-image: url("../Components/images/Regulatory Compliance 02.png");
+}
+.Relationship.Management{
+    background-image: url("../Components/images/Relationship Management 03.png");
+}
+.Investment.Management{
+    background-image: url("../Components/images/Investment Management 01.png");
+}
+.Snow.Flake.DBB{
+    background-image: url("../Components/images/snowflake.png");
+}
+.Redshift{
+    background-image: url("../Components/images/redshift.png");
+}
+.Maria.DB{
+    background-image: url("../Components/images/mariadb.png");
+}
+.Apache.Hive.Logo{
+    background-image: url("../Components/images/Apache_Hive_logo.png");
+}
+.Kafka{
+    background-image: url("../Components/images/kafka.png");
+}
+.S3{
+    background-image: url("../Components/images/s3.png");
+}
+.Hive{
+    background-image: url("../Components/images/Apache_Hive_logo.png");
 }

@@ -7,8 +7,11 @@ import { Link } from "react-router-dom";
 import data from "./data.json";
 
 class DescriptionCustomer extends Component {
+
   constructor() {
+   
     super();
+    
     this.state = {
       posts: [...data],
       checkbox: [
@@ -80,7 +83,9 @@ class DescriptionCustomer extends Component {
   }
 
   render() {
+    var logTable = this.props;
     return (
+      
       <div>
         <Title title={"FULCRUM"} />
         <div class="transPush">
@@ -88,9 +93,13 @@ class DescriptionCustomer extends Component {
             class="fa fa-angle-double-left"
             style={{ fontSize: "18px", paddingRight: "5px" }}
           ></i>
-          <Link className="push" to="/BackDashboard" style={{ color: "white" }}>
-            BACK
+     
+          <Link className="push" to={{pathname:"/Customers", aboutProps: {
+                          name: { logTable },
+                        }}}  style={{ color: "white" }}>
+                           BACK
           </Link>
+
         </div>
         <CustomerColumn
           posts={this.state.posts}
@@ -99,8 +108,10 @@ class DescriptionCustomer extends Component {
           cardsValue={this.props}
         />
       </div>
-    );
+    )
+   
   }
 }
+
 
 export default DescriptionCustomer;

@@ -77,8 +77,9 @@ class Description extends Component {
     postRemoved.isChecked = e.target.checked;
     this.setState({ checkbox });
   }
-
+ // var logTable = this.props;
   render() {
+    
     return (
       <div>
         <Title title={"FULCRUM"} />
@@ -88,7 +89,7 @@ class Description extends Component {
             style={{ fontSize: "18px", paddingRight: "5px" }}
           ></i>
           <Link className="push" to="/BackDashboard" style={{ color: "white" }}>
-            BACK
+            BACK3
           </Link>
         </div>
         <TableColumn

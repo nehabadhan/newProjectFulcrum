@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Title from "./Title";
 import LeftBar from "./LeftBar";
 import Example from "./Example";
 import Description from "./Description";
@@ -11,6 +10,7 @@ import AssetList from "./AssetList";
 import MariaList from "./MariaList";
 import SnowFlakeList from "./SnowFlakeList";
 import { Route } from "react-router-dom";
+import Title from "./Title";
 
 class Main extends Component {
   render() {
@@ -30,9 +30,10 @@ class Main extends Component {
 
         <Route path="/AddTransform" component={Description} />
 
+
         <Route path="/Customers" component={CustomerList} />
-        
-        <Route path="/Cards" component={CardsList} />
+
+<Route path="/Cards" component={CardsList} />
 
         <Route
           path="/AssetListScreen"
