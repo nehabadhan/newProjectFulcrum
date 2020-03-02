@@ -146,11 +146,23 @@ font-size: 14px;
     color: #fff;
     height: 30px;
     float:right;
-    margin-top: -52px;
+    margin-top: -30px;
     width: 140px;
     text-align: center;
 }
 
+#tableBorder label
+{
+    font-weight: 500;
+}
+
+.records
+{
+    border: 1px solid #d7e5f0;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
 .icon-tab{
     border: 1px solid #4481C1;
     border-radius: 20px;
@@ -280,8 +292,8 @@ border-radius: 50%;
 vertical-align: top;
 }
 .roundedImageList{
-    width: 29px;
-    height: 29px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     vertical-align: top;
     }
@@ -290,6 +302,19 @@ vertical-align: top;
     background-color: white;
 }
 
+
+#tableBorderentity td
+{
+    vertical-align: inherit;
+    padding: 0 !important;
+}
+
+
+.Entitylink
+{
+    padding: 20px;
+  
+}
 .transPush{
     background-color: #004085;
   border-radius: 5px;
@@ -297,7 +322,7 @@ vertical-align: top;
   font-size: 14px;
   color: #fff;
   height: 30px;
-  margin: 15px;
+  margin:10px 10px 10px 40px;
   width: 100px;
   padding-bottom: 20px;
   padding-left: 20px;

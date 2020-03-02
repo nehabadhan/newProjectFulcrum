@@ -13,12 +13,13 @@ class Title extends Component {
         {/* <button type="button" class="buttonAlign">
           BACK  
         </button> */}
-        <div class="row">
+ 
           <span class="col navbar-brand mb-0 h3" style={{paddingLeft: "27px",fontSize: "23px"}}>
-            <span>{this.props.title}</span>
-            {/* <span><img style={myIcon} src={`${require('./images/fulcrumgreen.png')}`} /></span> */}
+          <span>{this.props.title}</span>
+        {  /*   <span ><img style={myIcon} src={`${require('./images/fulcrumgreen.png')}`} /></span>*/}
+            { <span style={{float:"right",  margin:"5px 0"}}><h6> FULCRUM - Machine Learning Feature Store</h6></span>}
           </span>
-        </div>
+     
       </nav>
     );
   }

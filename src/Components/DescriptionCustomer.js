@@ -6,6 +6,7 @@ import pic from "./images/pic.jpg";
 import { Link } from "react-router-dom";
 import data from "./data.json";
 
+
 class DescriptionCustomer extends Component {
 
   constructor() {
@@ -83,7 +84,9 @@ class DescriptionCustomer extends Component {
   }
 
   render() {
+    debugger;
     var logTable = this.props;
+    let entityId = logTable.location.aboutProps.id.entityID;
     return (
       
       <div>
@@ -101,12 +104,16 @@ class DescriptionCustomer extends Component {
           </Link>
 
         </div>
+        <div class="container">
+
         <CustomerColumn
           posts={this.state.posts}
           checkboxMark={this.state.checkbox}
           onRemovePhoto={this.handleChecked}
           cardsValue={this.props}
         />
+         
+      </div>
       </div>
     )
    
